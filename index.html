@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juha Puskala - Home page</title>
 </head>
-<body>
+<body class="">
 <header>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#About-me">Me</a></li>
+                <li><a href="#about-me">Me</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
             </ul>
@@ -42,32 +42,54 @@
         <p>This is a place where I have gathered information and all kinds of stuff about myself</p>
     </div>
 </main>
-	<div id="about-me" class="featurette-row container">	
-		<hr class="featurette-divider">
+	<div id="about-me" class="container">
+		<hr>
 		<div class="col-md-8">
-			<h1 class="featurette-heading">Its me!</h1>
+			<h1>Its me!</h1>
 			<p class="lead">My name is Juha Puskala and I'm 21 years old. I study at Jyväskylä University of Applied Sciences as a 3rd year student.
 			I'm a funny and energetic person who has a lot of opinions on almost every subject one can imagine.
 			In 2015 I spent four months in Dublin as an Erasmus exchange student. More information on that can be found on this site!</p>
 		</div>
 		<div class="col-md-4">
-			<img class="featurette-image img-responsive center-block" src="img/its-me.JPG" alt="photo-of-me">
+			<img class="featurette-image img-responsive img-thumbnail center-block" src="img/its-me.JPG" alt="photo-of-me">
 		</div>			
 	</div>
 	
-	<div id="skills" class="container featurette-row">
-		<hr class="featurette-divider">
-		<div class="col-md-7">
-			
+	<div id="skills" class="container">
+		<hr>
+		<div class="col-md-5">
+			<h1>What I know</h1>
+			<p class="lead">During my studies I have acquired certain skills on different areas of software development and gotten familiar with
+            some useful technologies.</p>
 		</div>
-		<div class="col-md-4">
-			<h1 class="featurette-heading">My skills</h1>
-			<p class="lead">During my studies I have acquired certain skills on different areas of software development.</p>
-		</div>
+        <div class="col-md-7">
+            <img class="img-responsive center-block" alt="lang-logos" src="img/lang-logos2.png">
+        </div>
 	</div>
-	
-	<div id="projects" class="container featurette-row">
-		<hr class="featurette-divider">
-	</div>
+
+    <section id="projects" class="container">
+        <hr>
+        <h1 class="col-md-12">Projects</h1>
+        <div class="container">
+            <div class="col-md-5">
+                <h2>Kebapp</h2>
+                <p class="lead">Kebapp is an Android application to find and rate nearest kebab places in town.<a class="fa fa-github-square" href="https://github.com/xentare/Kebapp"></a></p>
+
+            </div>
+            <div class="col-md-7">
+                <img class="center-block img-responsive" src="img/kebapp-screenshot.png" alt="kebapp-screenshot">
+            </div>
+        </div>
+        <div class="container">
+            <hr>
+            <div class="col-md-5">
+                <h2>Chatroom desktop</h2>
+                <p class="lead">Simple chatroom application and server made with .NET and C#. <a class="fa fa-github-square" href="https://github.com/xentare/.NET-Chatroom"></a></p>
+            </div>
+            <div class="col-md-7">
+                <img src="img/chatroom-screen.png">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
