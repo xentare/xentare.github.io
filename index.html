@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juha Puskala - Home page</title>
@@ -96,12 +97,32 @@
 </section>
 <section id="dublin" class="container">
     <div class="container-fluid">
+        <div class="col-md-5">
         <h1>Dublin 2015</h1>
         <p class="lead">In the fall of 2015 I decided to do something crazy and different, (at least for me), and left to Dublin for a semester.
             <span class="text-muted">Since it's illegal to drink in public, the beer, of course, is non-alcoholic ;)</span></p>
-        <img class="img-responsive center-block img-thumbnail" src="resources/st-paddys-day.jpg" alt="st-paddys-day">
+        </div>
+        <div class="col-md-7">
+            <img id="imagesource" class="img-responsive center-block img-thumbnail" src="img/st-paddys-day.jpg" alt="st-paddys-day">
+        </div>
     </div>
 </section>
+<!-- Creates the bootstrap modal where the image will appear -->
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive center-block" src="" id="imagepreview" >
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 <footer class="panel-footer container">
     <p class="text-muted">juha.puskala(ät)gmail(piste)com</p>
 </footer>

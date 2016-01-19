@@ -17,3 +17,6 @@ footer p{
 footer{
     border-radius: 6px;
 }
+img:hover{
+    cursor: pointer;
+}
