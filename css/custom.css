@@ -1,6 +1,19 @@
 body {
 	padding-top: 70px;
+    background: #445566;
 }
 a{
     padding: 0 10px 0 10px;
+}
+section{
+    background: #eee;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+footer p{
+    text-align: left;
+    margin: auto;
+}
+footer{
+    border-radius: 6px;
 }
