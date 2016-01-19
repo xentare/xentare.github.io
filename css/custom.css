@@ -1,14 +1,14 @@
 body {
 	padding-top: 70px;
-    background: #445566;
+    background: #fffeff;
+}
+section{
+}
+.jumbotron{
+    color: black;
 }
 a{
     padding: 0 10px 0 10px;
-}
-section{
-    background: #eee;
-    border-radius: 6px;
-    margin-bottom: 20px;
 }
 footer p{
     text-align: left;
@@ -19,4 +19,7 @@ footer{
 }
 img:hover{
     cursor: pointer;
+}
+.container-fluid.margin-bottom{
+   margin-bottom: 20px;
 }
