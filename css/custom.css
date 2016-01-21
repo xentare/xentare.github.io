@@ -1,11 +1,16 @@
+.navbar{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
 body {
 	padding-top: 70px;
-    background: #fffeff;
+    background: #265a88;
+    font-family: 'Raleway', sans-serif;
 }
 section{
-}
-.jumbotron{
-    color: black;
+    background: #e7e7e7;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 a{
     padding: 0 10px 0 10px;
@@ -20,6 +25,7 @@ footer{
 img:hover{
     cursor: pointer;
 }
-.container-fluid.margin-bottom{
-   margin-bottom: 20px;
+img{
+    margin: 10px 0 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }

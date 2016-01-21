@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juha Puskala - Home page</title>
 </head>
-<body class="">
+<body data-link="home" >
 <header>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -28,7 +29,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about-me">Me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -38,15 +39,12 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header>
-<main class="container">
-    <div class="jumbotron">
-        <h1>Welcome to my Site</h1>
-        <p>This is a place where I have gathered information and all kinds of stuff about myself</p>
-    </div>
-</main>
-<section class="container">
-    <div id="about-me" class="container">
-        <hr>
+<section class="container main">
+    <h1 class="fa-4x" >Welcome to my Site</h1>
+    <p class="lead fa-2x">This is place where I have gathered information and all kinds of stuff about me.</p>
+</section>
+<section data-link="about-me" class="container">
+    <div class="container">
         <div class="col-md-8">
             <h1>It's me!</h1>
             <p class="lead">My name is Juha Puskala and I'm 21 years old. I study at Jyväskylä University of Applied Sciences as a 3rd year student.
@@ -58,9 +56,8 @@
         </div>
     </div>
 </section>
-<section id="skills" class="container">
+<section data-link="skills" class="container">
     <div class="container-fuild">
-        <hr>
         <div class="col-md-5">
             <h1>What I know</h1>
             <p class="lead">During my studies I have acquired certain skills on different areas of software development and gotten familiar with
@@ -71,8 +68,7 @@
         </div>
     </div>
 </section>
-<section id="projects" class="container">
-    <hr>
+<section data-link="projects" class="container">
     <h1 class="col-md-12">Projects</h1>
     <div class="container-fluid margin-bottom">
         <div class="col-md-5">
@@ -94,8 +90,7 @@
         </div>
     </div>
 </section>
-<section id="dublin" class="container">
-    <hr>
+<section data-link="dublin" class="container">
     <div class="container-fluid">
         <div class="col-md-5">
         <h1>Dublin 2015</h1>
@@ -122,8 +117,5 @@
         </div>
     </div>
 </div>
-<footer class="panel-footer container">
-    <p class="text-muted">juha.puskala(ät)gmail(piste)com</p>
-</footer>
 </body>
 </html>
