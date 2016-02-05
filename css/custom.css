@@ -31,11 +31,33 @@ img{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .contact {
-    display: inline-block;
+    display: inline-flex;
     padding-top: 15px;
 }
-@media screen and (max-width: 1000px){
+
+.navbar-nav {
+    float: right;
+}
+@media screen and (max-width: 991px){
+    .a-hide {
+        display: none;
+        background-size: 0;
+    }
+    .contact-img {
+        font-size: 3em;
+    }
     .contact {
-        padding: 15px 5px 15px 5px;
+        margin-left: 30px;
+        padding-top: 8px;
+    }
+}
+@media screen and (max-width: 470px){
+
+}
+
+@media screen and (max-width: 767px){
+    .navbar-nav {
+        float: none;
+        text-align: center;
     }
 }
