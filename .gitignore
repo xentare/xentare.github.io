@@ -6,3 +6,4 @@ gulpfile.js
 snake.html
 node_modules
 snake.js
+.DS_Store

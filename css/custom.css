@@ -30,3 +30,12 @@ img{
     margin: 10px 0 10px 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
+.contact {
+    display: inline-block;
+    padding-top: 15px;
+}
+@media screen and (max-width: 1000px){
+    .contact {
+        padding: 15px 5px 15px 5px;
+    }
+}
