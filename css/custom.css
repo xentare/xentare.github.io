@@ -47,17 +47,22 @@ img{
         font-size: 3em;
     }
     .contact {
-        margin-left: 30px;
+        margin-left: 15px;
         padding-top: 8px;
     }
 }
-@media screen and (max-width: 470px){
-
+@media screen and (max-width: 308px){
+    .contact {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px){
     .navbar-nav {
         float: none;
         text-align: center;
+    }
+    .contact {
+        margin: auto;
     }
 }
